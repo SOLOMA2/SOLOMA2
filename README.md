@@ -1,16 +1,50 @@
-## Hi there 👋
+# Привет, я Максим Адашкевич! 👋
 
-<!--
-**SOLOMA2/SOLOMA2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### .NET Backend Engineer | C# | Microservices
 
-Here are some ideas to get you started:
+Я специализируюсь на создании надежных серверных систем и проектировании масштабируемых архитектур. Мой подход базируется на глубоком понимании инструментов (EF Core, RabbitMQ, Redis) и применении принципов SOLID и Clean Architecture.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠 Мой технологический стек:
+
+- **Языки:** C#, SQL, JavaScript, LINQ
+- **Платформы и фреймворки:** .NET 8/9, ASP.NET Core (Web API, MVC), Entity Framework Core 9, SignalR
+- **Архитектура и паттерны:** Microservices, Clean Architecture, SOLID, Repository, Unit of Work, Async/Await
+- **Работа с данными:** MS SQL Server, PostgreSQL (PostGIS), Redis, AWS S3
+- **Технологии:** REST API, RabbitMQ, JWT Authentication (Identity), Docker, Docker Compose
+- **Фронтенд-технологии:** React 19, Vite, HTML5, CSS3, Bootstrap 5
+- **Инструменты:** Git, AutoMapper, Swagger
+
+---
+
+### 🚀 Основные проекты:
+
+#### 🔹 [GeoMatch (Tinder Clone)](https://github.com/SOLOMA2/TinderClone)
+Микросервисная система знакомств.
+- Решил проблему **Race Condition** при мэтчинге через композитные ключи и Upsert-операции в EF Core.
+- Внедрил высокопроизводительный гео-поиск с использованием **PostgreSQL (PostGIS)**.
+- Выстроил асинхронное взаимодействие микросервисов через **RabbitMQ**.
+
+#### 🔹 [RecipeManager](https://github.com/SOLOMA2/RecipeManager)
+Full-stack сервис (React 19 + .NET 8) для управления рецептами.
+- Реализовал алгоритм **Левенштейна** для нечеткого поиска ингредиентов.
+- Интегрировал внешние Nutrition API с 4-уровневым механизмом fallback.
+
+#### 🔹 [Survey Platform](https://github.com/SOLOMA2/CourseProject)
+Веб-платформа для создания динамических опросов.
+- Реализовал real-time обновление счетчиков через **SignalR**.
+- Оптимизировал сложные выборки (13 сущностей) через **Query Splitting** в EF Core.
+
+---
+
+### 🎓 Образование и курсы:
+- **Itransition:** Курс «Commercial Software Development — C#» (2025).
+- **ГрГУ им. Янки Купалы:** Факультет математики и информатики (Искусственный интеллект/Инженер-системотехник), 2022 — 2026.
+
+---
+
+### 📫 Как со мной связаться:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maksimadas/)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/maksimadas)
+📧 **Email:** adashkevicmaksim7@gmail.com
